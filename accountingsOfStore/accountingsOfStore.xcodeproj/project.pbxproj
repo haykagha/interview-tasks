@@ -62,19 +62,51 @@
 		8403E812249573600099458E /* accountingsOfStore */ = {
 			isa = PBXGroup;
 			children = (
-				8403E829249575420099458E /* MainTableViewController.swift */,
-				840B1F272495869300C6BC51 /* PlistParser.swift */,
-				840B1F292495949400C6BC51 /* AccountingTableViewCell.swift */,
+				845A710F249646EA00BB2D09 /* Model */,
+				845A71102496470B00BB2D09 /* View */,
+				845A71112496471100BB2D09 /* Controller */,
+				845A71122496474A00BB2D09 /* other */,
 				840B1F3324959D3500C6BC51 /* expenses.plist */,
 				8403E821249573620099458E /* Info.plist */,
 				8403E81E249573620099458E /* LaunchScreen.storyboard */,
-				8403E819249573600099458E /* Main.storyboard */,
-				8403E813249573600099458E /* AppDelegate.swift */,
-				8403E815249573600099458E /* SceneDelegate.swift */,
-				8403E81C249573620099458E /* Assets.xcassets */,
 				8403E811249573600099458E /* Products */,
 			);
 			path = accountingsOfStore;
+			sourceTree = "<group>";
+		};
+		845A710F249646EA00BB2D09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				840B1F292495949400C6BC51 /* AccountingTableViewCell.swift */,
+				840B1F272495869300C6BC51 /* PlistParser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		845A71102496470B00BB2D09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8403E81C249573620099458E /* Assets.xcassets */,
+				8403E819249573600099458E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		845A71112496471100BB2D09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8403E829249575420099458E /* MainTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		845A71122496474A00BB2D09 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				8403E813249573600099458E /* AppDelegate.swift */,
+				8403E815249573600099458E /* SceneDelegate.swift */,
+			);
+			path = other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
