@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>price</key>
+		<integer>3500</integer>
+		<key>date</key>
+		<date>2020-03-14T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>7000</integer>
+		<key>date</key>
+		<date>2020-01-22T09:09:01Z</date>
+		<key>name</key>
+		<string>SAS</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>1250</integer>
+		<key>date</key>
+		<date>2020-03-06T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>11000</integer>
+		<key>date</key>
+		<date>2020-04-04T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>17000</integer>
+		<key>date</key>
+		<date>2020-01-17T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>2000</integer>
+		<key>date</key>
+		<date>2020-05-15T09:09:01Z</date>
+		<key>name</key>
+		<string>SAS</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>5500</integer>
+		<key>date</key>
+		<date>2020-02-03T09:09:01Z</date>
+		<key>name</key>
+		<string>SAS</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>7250</integer>
+		<key>date</key>
+		<date>2020-03-22T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>15500</integer>
+		<key>date</key>
+		<date>2020-01-14T09:09:01Z</date>
+		<key>name</key>
+		<string>SAS</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<real>12000</real>
+		<key>date</key>
+		<date>2020-05-10T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>9500</integer>
+		<key>date</key>
+		<date>2020-03-18T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>19950</integer>
+		<key>date</key>
+		<date>2020-01-11T09:09:01Z</date>
+		<key>name</key>
+		<string>SAS</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>2500</integer>
+		<key>date</key>
+		<date>2020-04-24T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>34000</integer>
+		<key>date</key>
+		<date>2020-03-19T09:09:01Z</date>
+		<key>name</key>
+		<string>SAS</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>17900</integer>
+		<key>date</key>
+		<date>2020-02-09T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>4600</integer>
+		<key>date</key>
+		<date>2020-04-21T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>5750</integer>
+		<key>date</key>
+		<date>2020-01-15T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>1500</integer>
+		<key>date</key>
+		<date>2020-02-08T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>6000</integer>
+		<key>date</key>
+		<date>2020-03-17T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>7500</integer>
+		<key>date</key>
+		<date>2020-05-26T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>1000</integer>
+		<key>date</key>
+		<date>2020-03-14T09:09:01Z</date>
+		<key>name</key>
+		<string>SAS</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>250</integer>
+		<key>date</key>
+		<date>2020-05-09T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>5600</integer>
+		<key>date</key>
+		<date>2020-01-10T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>3500</integer>
+		<key>date</key>
+		<date>2020-05-27T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>88000</integer>
+		<key>date</key>
+		<date>2020-02-11T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>4000</integer>
+		<key>date</key>
+		<date>2020-04-12T09:09:01Z</date>
+		<key>name</key>
+		<string>SAS</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>4700</integer>
+		<key>date</key>
+		<date>2020-05-13T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>19000</integer>
+		<key>date</key>
+		<date>2020-03-22T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>43000</integer>
+		<key>date</key>
+		<date>2020-01-24T09:09:01Z</date>
+		<key>name</key>
+		<string>SAS</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<integer>7600</integer>
+		<key>date</key>
+		<date>2020-05-27T09:09:01Z</date>
+		<key>name</key>
+		<string>Yerevan City</string>
+	</dict>
+</array>
+</plist>
