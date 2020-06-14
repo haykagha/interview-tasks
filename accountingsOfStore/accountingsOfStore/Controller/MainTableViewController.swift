@@ -124,20 +124,7 @@ class MainTableViewController: UITableViewController {
         // header view
         let frame = tableView.frame
         let headerView = UIView(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height))
-                 headerView.backgroundColor = .white
         
-        // define button and it's constraints, that is on right side in header view
-        
-        // define button and his properties
-        let sectionButton = UIButton()
-        sectionButton.titleLabel?.text = nil
-        if let image = UIImage(named: "down.png") {
-            sectionButton.setImage(image, for: .normal)
-        }
-        headerView.addSubview(sectionButton)
-        
-        // func sets button constraints
-        setConstraints(view: sectionButton, trailingAnchor: headerView.trailingAnchor, trailingConst: -8, leadingAnchor: nil, leadingConst: nil, topAnchor: headerView.topAnchor, bottomAnchor: headerView.bottomAnchor, widthAnchor: headerView.widthAnchor, widthMultip: 0.1)
         // Define label and it's constraints, that is on left side in header view
         // It defines label and his properties
         let label = UILabel()
@@ -147,14 +134,28 @@ class MainTableViewController: UITableViewController {
         
         // func sets label constraints
         setConstraints(view: label, trailingAnchor: nil, trailingConst: nil, leadingAnchor: headerView.leadingAnchor, leadingConst: 8, topAnchor: headerView.topAnchor, bottomAnchor: headerView.bottomAnchor, widthAnchor: headerView.widthAnchor, widthMultip: 0.4)
+        
+        // define section's button and it's constraints, that is on right side in header view
+        
+        // define sectionButton's image and it's properties
+        let sectionButton = UIButton()
+        if let image = UIImage(named: "down.png") {
+            sectionButton.setImage(image, for: .normal)
+        }
+        sectionButton.imageEdgeInsets = UIEdgeInsets(top: 0, left: headerView.frame.width / 1.25, bottom: 0, right: 0)
+        headerView.addSubview(sectionButton)
+        
+        // func sets sectionButton constraints
+        setConstraints(view: sectionButton, trailingAnchor: headerView.trailingAnchor, trailingConst: -8, leadingAnchor: nil, leadingConst: nil, topAnchor: headerView.topAnchor, bottomAnchor: headerView.bottomAnchor, widthAnchor: headerView.widthAnchor, widthMultip: 1)
+        
+        
         // It adds action when button is clicked
         sectionButton.tag = section
         sectionButton.addTarget(self,
-                                action: #selector(self.hideSection(sender:)),
-                                for: .touchUpInside)
-        
-        return headerView
-    }
+                             action: #selector(self.hideSection(sender:)),
+                             for: .touchUpInside)
+     return headerView
+}
     
     // This func is called, when button is clicked,
     @objc
