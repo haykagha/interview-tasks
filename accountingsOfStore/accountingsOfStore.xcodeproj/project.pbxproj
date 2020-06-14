@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8403E810249573600099458E /* accountingsOfStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = accountingsOfStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8403E810249573600099458E /* Accounting Hayk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accounting Hayk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8403E813249573600099458E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8403E815249573600099458E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8403E81A249573600099458E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		8403E811249573600099458E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8403E810249573600099458E /* accountingsOfStore.app */,
+				8403E810249573600099458E /* Accounting Hayk.app */,
 			);
 			name = Products;
 			path = ..;
@@ -65,7 +65,7 @@
 				845A710F249646EA00BB2D09 /* Model */,
 				845A71102496470B00BB2D09 /* View */,
 				845A71112496471100BB2D09 /* Controller */,
-				845A71122496474A00BB2D09 /* other */,
+				845A71122496474A00BB2D09 /* Delegate */,
 				840B1F3324959D3500C6BC51 /* expenses.plist */,
 				8403E821249573620099458E /* Info.plist */,
 				8403E81E249573620099458E /* LaunchScreen.storyboard */,
@@ -100,13 +100,13 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		845A71122496474A00BB2D09 /* other */ = {
+		845A71122496474A00BB2D09 /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
 				8403E813249573600099458E /* AppDelegate.swift */,
 				8403E815249573600099458E /* SceneDelegate.swift */,
 			);
-			path = other;
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +126,7 @@
 			);
 			name = accountingsOfStore;
 			productName = accountingsOfStore;
-			productReference = 8403E810249573600099458E /* accountingsOfStore.app */;
+			productReference = 8403E810249573600099458E /* Accounting Hayk.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -336,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Test.accountingsOfStore;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Accounting Hayk";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -353,7 +353,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Test.accountingsOfStore;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Accounting Hayk";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

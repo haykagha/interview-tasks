@@ -2,8 +2,8 @@
 //  MainTableViewController.swift
 //  accountingsOfStore
 //
-//  Created by Admin on 6/14/20.
-//  Copyright © 2020 Admin. All rights reserved.
+//  Created by Hayk on 6/14/20.
+//  Copyright © 2020 Hayk. All rights reserved.
 //
 
 import UIKit
@@ -106,12 +106,12 @@ class MainTableViewController: UITableViewController {
     
     // func define height of rows in tableView
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return CGFloat(25)
+        return CGFloat(50)
     }
     
     // func define height of section's header in tableView
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return CGFloat(40)
+        return CGFloat(100)
     }
     // func define title of section's header in tableView
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -124,7 +124,7 @@ class MainTableViewController: UITableViewController {
         // header view
         let frame = tableView.frame
         let headerView = UIView(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height))
-                 headerView.backgroundColor = .lightGray
+                 headerView.backgroundColor = .white
         
         // define button and it's constraints, that is on right side in header view
         
@@ -137,7 +137,7 @@ class MainTableViewController: UITableViewController {
         headerView.addSubview(sectionButton)
         
         // func sets button constraints
-        setConstraints(view: sectionButton, trailingAnchor: headerView.trailingAnchor, trailingConst: -8, leadingAnchor: nil, leadingConst: nil, topAnchor: headerView.topAnchor, bottomAnchor: headerView.bottomAnchor, widthAnchor: headerView.widthAnchor, widthMultip: 0.05)
+        setConstraints(view: sectionButton, trailingAnchor: headerView.trailingAnchor, trailingConst: -8, leadingAnchor: nil, leadingConst: nil, topAnchor: headerView.topAnchor, bottomAnchor: headerView.bottomAnchor, widthAnchor: headerView.widthAnchor, widthMultip: 0.1)
         // Define label and it's constraints, that is on left side in header view
         // It defines label and his properties
         let label = UILabel()
